@@ -13,6 +13,10 @@ public abstract class Menu {
     private String menu_nama;
     private int menu_harga;
 
+    public Menu() {
+    }
+
+    
     public Menu(String menu_id, String menu_nama, int menu_harga) {
         this.menu_id = menu_id;
         this.menu_nama = menu_nama;
